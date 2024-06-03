@@ -1,0 +1,182 @@
+@import "bootstrap.css";
+@import "https://unpkg.com/ionicons@4.4.4/dist/css/ionicons.min.css";
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  /* position: sticky;
+  top: 0;
+  z-index: 99999;
+  background-color: #01121b; */
+  top: 0;
+  z-index: 9999;
+  background-color: transparent;
+  backdrop-filter: saturate(180%) blur(5px);
+  backface-visibility: hidden;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.navbar {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    display: none;
+  }
+}
+
+.nav-item {
+  list-style-type: none;
+  padding: 0 15px;
+}
+
+.nav-item a {
+  padding: 6px 0;
+  text-decoration: none;
+  background: -webkit-linear-gradient(-70deg, #05a3fc, #7c61a8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-item a:hover {
+  color: rgb(228, 228, 228);
+  border-bottom: 3px solid #81bbf5;
+}
+
+.nav-item > .active {
+  border-bottom: 3px solid #48a3fc;
+}
+
+.btn-sm {
+  border-radius: 16px;
+  padding: 4px 16px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.intro {
+  background-image: url("../img/intro-bg.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+.gradient-title {
+  background: -webkit-linear-gradient(-70deg, #05a3fc, #7c61a8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+
+.service {
+  background-image: url("../img/pattern-left.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: auto;
+}
+
+.service-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #e0f0fe;
+  margin-bottom: 15px;
+}
+
+.service-icon h2 {
+  text-align: center;
+  padding-top: 8px;
+  font-family: "Montserrat", sans-serif;
+  background: -webkit-linear-gradient(-70deg, #05a3fc, #7c61a8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Montserrat", sans-serif;
+}
+
+.gallery {
+  background-image: url("../img/pattern-right.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto;
+}
+
+.contact-us {
+  background-image: url("../img/pattern-left.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: auto;
+}
+
+.footer {
+  border-top: 1px solid #e0e0e0;
+}
+
+.social-media {
+  width: max-content;
+}
+
+.social-media-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #05a3fc;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.social-media-icon:hover {
+  background-color: #068cda;
+}
+
+.offer i {
+  color: #05a3fc;
+}
+
+.intro-illustration img {
+  width: 100%;
+}
+
+.light-bg {
+  background-color: #fff;
+  color: #000;
+  transition: 1s;
+}
+
+.dark-bg {
+  background-color: #01121b;
+  color: #fff;
+  transition: 1s;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 4px #0000000d;
+}
